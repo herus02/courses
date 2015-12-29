@@ -1,0 +1,210 @@
+/*
+	http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*
+	========================================
+	Base
+	========================================
+*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+img {
+	width: 100%;
+}
+
+/*
+	========================================
+	Typography
+	========================================
+*/
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 6rem;
+	line-height: 1;
+	color: #666;
+}
+
+h2 {
+	text-align: left;
+	font-weight: 400;
+	font-size: 3.2rem;
+	color: #BCBBBB;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2.5rem;
+	color: #666;
+}
+
+p {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 2.2rem;
+	color: #666;
+}
+
+
+/*
+	========================================
+	Estrutura
+	========================================
+*/
+
+*[class^="col"] {
+	padding: 0 15px;
+}
+
+.grid {
+	width: 100%;
+	max-width: 980px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*
+	========================================
+	Helper Classes
+	========================================
+*/
+
+.text-left {
+	text-align: left;
+}
+
+/*
+	========================================
+	Header
+	========================================
+*/
+
+.header {
+	padding: 50px 0 17px 0;
+	border-bottom: 3px solid #BCBBBB;
+	text-align: right;
+}
+
+.header-logo {
+	width: 126px;
+	border-radius: 50%;
+}
+
+.header-title {
+	margin-top: 10px;
+}
+
+.header-subtitle {
+	margin-top: 10px;
+}
+
+/*
+	========================================
+	Works
+	========================================
+*/
+
+.works {
+	text-align: left;
+}
+
+.works h2 {
+	padding-bottom: 10px;
+}
+
+.work {
+	display: flex;
+	flex-flow: column nowrap;
+	max-width: 90%;
+}
+
+.work img {
+	order: 1;
+}
+
+.work a {
+	order: 3;
+	font-size: 1.4rem;
+	color: #747704;
+}
+
+.work h3 {
+	order: 2;
+	padding: 10px 0;
+}
