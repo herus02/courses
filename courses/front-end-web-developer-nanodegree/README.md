@@ -29,8 +29,8 @@
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
 | 01 | [Lesson 1: HTML, CSS and Boxes](https://www.udacity.com/course/viewer#!/c-ud304/l-2617868617/e-2672258561/m-2600669133) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson1-html-and-css-boxes) |
-| 02 | [Lesson 2: CSS Frameworks, Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud304/l-2810388540/e-2872198574/m-2872198575) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-portfolio/framework/) |
-| 03 | [Lesson 3: Bootstrap and Other Frameworks](https://www.udacity.com/course/viewer#!/c-ud304/l-2794148535/e-2730818603/m-2730818604) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap/) |
+| 02 | [Lesson 2: CSS Frameworks, Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud304/l-2810388540/e-2872198574/m-2872198575) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-css-frameworks-responsive-layouts/framework/) |
+| 03 | [Lesson 3: Bootstrap and Other Frameworks](https://www.udacity.com/course/viewer#!/c-ud304/l-2794148535/e-2730818603/m-2730818604) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
 | 04 | [Final Project](https://www.udacity.com/course/viewer#!/c-ud304/l-3063988721/m-3670088566) | [⎙]() | [Project]() |
 
 ## Responsive Web Design Fundamentals
