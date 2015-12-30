@@ -1,4 +1,12 @@
-# [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) - Front-End Web Developer Nanodegree
+<h1 align="center">
+	<br>
+	<img width="200" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Udacity_Logo.svg" alt="Udacity Logo">
+	<br>
+	<br>
+	<br>
+</h1>
+
+> [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) - Front-End Web Developer Nanodegree
 
 ## Table of Contents
 
