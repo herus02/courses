@@ -1,0 +1,176 @@
+/*
+	========================================
+	Base
+	========================================
+*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+h2,
+h3 {
+	font-family: "Raleway", sans-serif;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	padding: 0;
+}
+
+/*
+	========================================
+	Structure
+	========================================
+*/
+
+.wrapper {
+	max-width:
+}
+
+/*
+	========================================
+	Header
+	========================================
+*/
+
+.header {
+	padding-top: 170px;
+	padding-bottom: 170px;
+	margin-bottom: 7rem;
+	border-top: 10px solid #2ecc71;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-title {
+	font-family: "Pacifico", cursive;
+	font-size: 6rem;
+	color: #fff;
+}
+
+.header-title-point {
+	color: #2ecc71;
+}
+
+.header-slogan {
+	margin-top: 4.5rem;
+	font-weight: 400;
+	font-size: 2.4rem;
+	color: #fff;
+}
+
+/* Listas com plataformas */
+.platforms-wrap {
+	margin-top: 21px;
+	list-style: none;
+}
+
+.platform-item {
+	display: inline-block;
+}
+
+.platform-item + .platform-item {
+	margin-left: 12px;
+}
+
+.platform-item:first-child .platform-link {
+	padding: 15px 17px;
+}
+
+.platform-link {
+	display: block;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.5);
+	transition: background-color 325ms linear;
+}
+
+.platform-link:hover {
+	background-color: #2ecc71;
+	transition: background-color 325ms linear;
+}
+
+.platform-link img {
+	-webkit-filter: grayscale(1);
+  				filter: grayscale(1);
+ 	transition: filter 275ms linear;
+}
+
+.platform-link:hover img {
+  -webkit-filter: brightness(10);
+  				filter: brightness(10);
+ 	transition: filter 275ms linear;
+}
+
+/*
+	========================================
+	Services
+	========================================
+*/
+
+.services {
+	margin-bottom: 7rem;
+}
+
+.services p {
+	margin-top: 2rem;
+	font-size: 1.6rem;
+	line-height: 26px;
+	color: #848484;
+}
+
+.service-editable-theme::before,
+.service-flat-design::before,
+.service-reach-your-audience::before {
+	content: "";
+	display: inline-block;
+	width: 99px;
+	height: 99px;
+	margin-bottom: 2rem;
+	border-radius: 50%;
+	background-color: #2ecc71;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.service-editable-theme::before {
+	background-image: url(../images/icons/icon-editable-theme.png);
+}
+
+.service-flat-design::before {
+	background-image: url(../images/icons/icon-star.png);
+}
+
+.service-reach-your-audience::before {
+	background-image: url(../images/icons/icon-world.png);
+}
+
+/*
+	========================================
+	Get updates
+	========================================
+*/
+
+.bg-grey {
+	background-color: #e3e3e3;
+}
