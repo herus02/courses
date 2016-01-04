@@ -27,12 +27,31 @@ h3 {
 	font-family: "Raleway", sans-serif;
 }
 
+h2 {
+	font-weight: 600;
+	font-size: 22px;
+}
+
+h3 {
+	font-weight: 600;
+}
+
 p {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #848484;
 }
 
 ul {
+	margin: 0;
 	padding: 0;
+}
+
+img,
+iframe {
+	width: 100%;
 }
 
 /*
@@ -167,10 +186,212 @@ ul {
 
 /*
 	========================================
-	Get updates
+	Section of Get and Updates
 	========================================
 */
 
-.bg-grey {
+.section-get-and-updates {
+	padding-top: 60px;
+	padding-bottom: 54px;
 	background-color: #e3e3e3;
+}
+
+.section-get-and-updates h2 {
+	margin-bottom: 28px;
+}
+
+.section-get-and-updates p {
+	margin-bottom: 25px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #848484;
+}
+
+.section-get-and-updates form {
+  position: relative;
+  display: flex;
+  max-width: 500px;
+}
+
+.section-get-and-updates input {
+  border: 1px solid #c8c8c8;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #848484;
+}
+
+.section-get-and-updates input:focus {
+  outline: none;
+}
+
+.section-get-and-updates input[type="email"] {
+  width: 70%;
+  padding: 14px 26px;
+  border-radius: 15px;
+}
+
+.section-get-and-updates input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 30%;
+  min-width: 100px;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  background-color: #2ecc71;
+	font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+}
+
+/*
+	========================================
+	Members section
+	========================================
+*/
+
+.members {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.members__header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.members__header h2,
+.members__header p {
+	width: 100%;
+}
+
+.members__header h2 {
+	margin: 15px 0 28px 0;
+}
+
+.members__header p {
+	order: -1;
+	font-size: 18px;
+}
+
+.members h3 {
+	margin: 60px 0 20px 0;
+}
+
+/* list of photos */
+.members li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	list-style: none;
+}
+
+.photo a {
+	position: relative;
+	display: inline-block;
+}
+
+.photo a::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: background-color 215ms linear;
+}
+
+.photo a:hover::before {
+	background-color: rgba(46, 204, 113, 0.6);
+	transition: background-color 265ms linear;
+}
+
+.socials {
+	margin-top: 20px;
+}
+
+li.socials__item {
+	width: 34px;
+	height: 34px;
+}
+
+.socials__item + .socials__item {
+	margin-left: 8px;
+}
+
+.socials a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #d4d4d4;
+	transition: background-color 265ms linear;
+}
+
+.socials a:hover {
+	background-color: #62d995;
+	transition: background-color 265ms linear;
+}
+
+.icon-twitter,
+.icon-facebook,
+.icon-pinterest,
+.icon-googleplus,
+.icon-linkedin,
+.icon-youtube {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon-twitter {
+	background-image: url(../images/icons/icon-twitter.png);
+}
+
+.icon-facebook {
+	background-image: url(../images/icons/icon-facebook.png);
+}
+
+.icon-pinterest {
+	background-image: url(../images/icons/icon-pinterest.png);
+}
+
+.icon-googleplus {
+	background-image: url(../images/icons/icon-googleplus.png);
+}
+
+.icon-linkedin {
+	background-image: url(../images/icons/icon-linkedin.png);
+}
+
+.icon-youtube {
+	background-image: url(../images/icons/icon-youtube.png);
+}
+
+/*
+	========================================
+	Footer
+	========================================
+*/
+
+.footer {
+	margin-top: 60px;
+	padding: 60px 0;
+	background-color: #e3e3e3;
+	text-align: center;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer li + li {
+	margin-left: 35px;
+}
+
+.footer a {
+	font-size: 1.6rem;
+	color: #848484;
 }
