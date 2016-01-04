@@ -314,8 +314,8 @@ iframe {
 }
 
 li.socials__item {
-	width: 34px;
-	height: 34px;
+	width: 48px;
+	height: 48px;
 }
 
 .socials__item + .socials__item {
@@ -388,10 +388,12 @@ li.socials__item {
 }
 
 .footer li + li {
-	margin-left: 35px;
+	margin-left: 5px;
 }
 
 .footer a {
+	display: inline-block;
+	padding: 1em;
 	font-size: 1.6rem;
 	color: #848484;
 }
