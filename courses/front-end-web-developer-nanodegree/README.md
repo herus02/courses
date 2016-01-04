@@ -33,6 +33,7 @@
 | 03 | [Lesson 3: Bootstrap and Other Frameworks](https://www.udacity.com/course/viewer#!/c-ud304/l-2794148535/e-2730818603/m-2730818604) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
 | 04 | [Final Project](https://www.udacity.com/course/viewer#!/c-ud304/l-3063988721/m-3670088566) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/final-project/) |
 
+
 ## Responsive Web Design Fundamentals
 
 | Number | Course | Annotations | Project |
@@ -42,3 +43,69 @@
 | 03 | [Lesson 3: Building Up](https://www.udacity.com/course/viewer#!/c-ud893/l-3533879576/m-3563669102) | [⎙]() | No project |
 | 04 | [Lesson 4: Common Responsive Patterns](https://www.udacity.com/course/viewer#!/c-ud893/l-3561069759/m-3579328553) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
 | 05 | [Lesson 5: Optimizations](https://www.udacity.com/course/viewer#!/c-ud893/l-3581758575/m-3508540397) | [⎙]() | No project |
+
+
+## Responsive Images
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## JavaScript Basics
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## Intro to jQuery
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## Object-Oriented JavaScript
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## HTML5 Canvas
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## Website Performance Optimization
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## Browser Rendering Optimization
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## Intro to AJAX
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## JavaScript Design Patterns
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## JavaScript Testing
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
+
+
+## How to Use Git and GitHub
+
+| Number | Course | Annotations | Project |
+| :---: | :--- | :---: | :---: |
