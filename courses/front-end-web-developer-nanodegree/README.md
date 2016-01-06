@@ -42,7 +42,7 @@
 | 02 | [Lesson 2: Starting Small](https://www.udacity.com/course/viewer#!/c-ud893/l-3494350031/m-3617688539) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson2-starting-small/) |
 | 03 | [Lesson 3: Building Up](https://www.udacity.com/course/viewer#!/c-ud893/l-3533879576/m-3563669102) | [⎙]() | No project |
 | 04 | [Lesson 4: Common Responsive Patterns](https://www.udacity.com/course/viewer#!/c-ud893/l-3561069759/m-3579328553) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
-| 05 | [Lesson 5: Optimizations](https://www.udacity.com/course/viewer#!/c-ud893/l-3581758575/m-3508540397) | [⎙]() | No project |
+| 05 | [Lesson 5: Optimizations](https://www.udacity.com/course/viewer#!/c-ud893/l-3581758575/m-3508540397) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson5-optimizations/) |
 
 
 ## Responsive Images
