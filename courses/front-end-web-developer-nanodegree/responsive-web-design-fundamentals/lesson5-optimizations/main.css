@@ -47,7 +47,11 @@ ul {
 }
 
 .news__more {
-  float: right;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  display: inline-block;
+  padding: 12px 12px 12px 26px;
   font-weight: 400;
   font-size: .67em;
   color: #78909C;
@@ -104,6 +108,7 @@ ul {
 
 .header__menu i {
   cursor: pointer;
+  font-size: 48px;
 }
 
   @media screen and (min-width: 550px) {
@@ -245,7 +250,8 @@ main {
   }
 
 .news__title {
-  padding-bottom: 0.5em;
+  position: relative;
+  padding: 16px 0 26px 0;
   border-bottom: 1px solid #E0E0E0;
   font-weight: 500;
   font-size: 1.5em;
