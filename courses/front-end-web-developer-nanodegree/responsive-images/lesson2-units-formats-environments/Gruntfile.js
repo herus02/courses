@@ -14,25 +14,17 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            name: '',
+            suffix: '_large',
+            width: 800,
+            quality: 60
           }]
         },
-
-        /*
-        You don't need to change this part if you don't change
-        the directory structure.
-        */
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'images_src/',
-          dest: 'images/'
+          cwd: 'src/images/',
+          dest: 'prod/images/'
         }]
       }
     },
@@ -40,7 +32,7 @@ module.exports = function(grunt) {
     /* Clear out the images directory if it exists */
     clean: {
       dev: {
-        src: ['images'],
+        src: ['prod/images/'],
       },
     },
 
@@ -48,7 +40,7 @@ module.exports = function(grunt) {
     mkdir: {
       dev: {
         options: {
-          create: ['images']
+          create: ['prod/images/', 'prod/images/fixed/']
         },
       },
     },
@@ -58,17 +50,34 @@ module.exports = function(grunt) {
       dev: {
         files: [{
           expand: true,
-          src: 'images_src/fixed/*.{gif,jpg,png}',
-          dest: 'images/'
+          cwd: 'src/images/fixed/',
+          src: '*.{gif,jpg,png}',
+          dest: 'prod/images/fixed/',
+          flatten: true,
+          filter: 'isFile'
         }]
       },
     },
+
+    // BrowserSync Serve
+    browserSync: {
+      bsFiles: {
+          src : ['prod/css/main.css', 'prod/index.html']
+      },
+      options: {
+          server: {
+              baseDir: "./prod/"
+          }
+      }
+    }
   });
   
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.loadNpmTasks('grunt-browser-sync');
+
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'browserSync']);
 
 };
