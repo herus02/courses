@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*
+ * fonts
+ */
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?onj6w');
+  src: url('../fonts/icomoon.eot?onj6w#iefix') format('embedded-opentype'),
+       url('../fonts/icomoon.ttf?onj6w') format('truetype'),
+       url('../fonts/icomoon.woff?onj6w') format('woff'),
+       url('../fonts/icomoon.svg?onj6w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-digg:before {
+    content: "\e900";
+}
+.icon-google-plus:before {
+    content: "\e901";
+}
+.icon-facebook:before {
+    content: "\e902";
+}
+.icon-twitter:before {
+    content: "\e903";
+}
+
+/*
+ * Base
+ */
+
+body {
+	font-family: 'Lato', sans-serif;
+  font-weight: 300;
+	font-size: 1em;
+	color: #444;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+}
+
+figcaption {
+  margin-top: .3em;
+  margin-left: .7em;
+  font-style: italic;
+  color: #999;
+}
+
+/*
+ * Structure
+ */
+
+@media screen and (max-width: 52em) {
+  .wrapper {
+    padding: .45em;
+  }
+}
+
+.container {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+/*
+ * Header
+ */
+
+.header {
+  margin: 2em 0;
+}
+
+/*
+ * Content
+ */
+
+article {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.article-title {
+  margin-top: .7em;
+}
+
+.article-text {
+  margin-top: 1em;
+}
+
+section {
+  margin: 2em 0;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  padding: 3em 0;
+  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
+  background-color: #fff4b8;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li + li {
+  margin-left: 1em;
+}
+
+footer a {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #999;
+  transition: color 265ms linear;
+}
+
+footer a:hover {
+  color: #ccc;
+  transition: color 265ms linear;
+}
