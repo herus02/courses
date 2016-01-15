@@ -52,7 +52,7 @@
 | 01 | [Lesson 1: Getting Up and Running](https://www.udacity.com/course/viewer#!/c-ud882/l-3532609279/m-3916878757) | [⎙]() | No project |
 | 02 | [Lesson 2: Units, Formats, Environments](https://www.udacity.com/course/viewer#!/c-ud882/l-3520939843/e-3739118824/m-3739118825)  | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
 | 03 | [Lesson 3: Images with Markup](https://www.udacity.com/course/viewer#!/c-ud882/l-3483659506/m-3559409555) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
-| 04 | [Lesson 4: Full Responsiveness](https://www.udacity.com/course/viewer#!/c-ud882/l-3574748851/m-3564979132) | [⎙]() | [project](courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
+| 04 | [Lesson 4: Full Responsiveness](https://www.udacity.com/course/viewer#!/c-ud882/l-3574748851/m-3564979132) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
 
 ## JavaScript Basics
 
