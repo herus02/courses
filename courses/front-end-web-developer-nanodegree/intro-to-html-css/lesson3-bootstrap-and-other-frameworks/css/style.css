@@ -1,60 +1,118 @@
+/*
+	========================================
+	Base
+	========================================
+*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 10px;
 }
 
 body {
+	background-color: #e8e8e7;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	line-height: 1;
-	color: #bcbbbb;
-}
-
-h1, h2, h3 {
-	margin: 0;
-}
-
-h3 {
-	margin-top: 10px;
-	color: #777;
-}
-
-a,
-a:hover {
-	display: inline-block;
-	padding: 10px 0;
-	font-size: 1.6rem;
-	color: #747704;
+	font-weight: 400;
+	font-size: 1em;
+	color: #666;
 }
 
 img {
 	max-width: 100%;
 }
 
-.row + .row{
-	margin-top: 22px;
+.container {
+	max-width: 980px;
 }
+
+/*
+	========================================
+	Typography
+	========================================
+*/
+
+h1 {
+	font-weight: 900;
+	font-size: 5em;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+p {
+	margin: 1em 0;
+	text-indent: 1.5em;
+	font-size: 1.6em;
+	line-height: 1.5;
+}
+
+/*
+	========================================
+	Header
+	========================================
+*/
 
 .header {
-	margin-top: 35px;
-	padding: 0 20px;
+	height: 400px;
+	background-image: url("../images/image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #444;
 }
 
-.header-title,
-.header-subtitle {
-	color: #767676;
+.header-inner {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo {
+	padding: 2.5em;
+	box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
 }
 
 .header-title {
-	font-weight: 100;
-	font-size: 62px;
+	color: inherit;
 }
 
 .header-subtitle {
-	font-weight: 300;
+	color: inherit;
 }
 
-.logo {
-	max-width: 125px;
-	border-radius: 50%;
+.header p {
+	margin: 1em 0 0 0;
+	font-size: 2.5em;
+	line-height: 1;
 }
 
+.line {
+	height: 1.1em;
+	margin-bottom: 1.6em;
+	background-color: #8bcc98;
+}
+
+/*
+	========================================
+	Content main
+	========================================
+*/
+
+.content-main {
+}
+
+.content-main-inner {
+	padding: 2em;
+	background-color: #fff;
+	max-width: 480px;
+	margin: 0 auto;
+}

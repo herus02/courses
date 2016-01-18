@@ -148,7 +148,7 @@ p {
 
 .header {
 	height: 400px;
-	background-image: url("http://lorempixel.com/980/400/city/3/");
+	background-image: url("../images/image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #444;
