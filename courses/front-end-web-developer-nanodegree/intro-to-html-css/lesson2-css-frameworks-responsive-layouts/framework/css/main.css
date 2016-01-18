@@ -23,12 +23,15 @@ html {
 }
 
 body {
+	background-color: #e8e8e7;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	font-size: 1em;
+	color: #666;
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 }
 
 /*
@@ -38,32 +41,20 @@ img {
 */
 
 h1 {
-	text-transform: uppercase;
-	font-weight: 100;
-	font-size: 6rem;
-	line-height: 1;
-	color: #666;
+	font-weight: 900;
+	font-size: 5em;
 }
 
 h2 {
-	text-align: left;
-	font-weight: 400;
-	font-size: 3.2rem;
-	color: #BCBBBB;
-}
-
-h3 {
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 2.5rem;
-	color: #666;
+	font-weight: 700;
+	font-size: 2em;
 }
 
 p {
-	text-transform: uppercase;
-	font-weight: 300;
-	font-size: 2.2rem;
-	color: #666;
+	margin: 1em 0;
+	text-indent: 1.5em;
+	font-size: 1.6em;
+	line-height: 1.5;
 }
 
 
@@ -156,55 +147,54 @@ p {
 */
 
 .header {
-	padding: 50px 0 17px 0;
-	border-bottom: 3px solid #BCBBBB;
-	text-align: right;
+	height: 400px;
+	background-image: url("http://lorempixel.com/980/400/city/3/");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #444;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-logo {
-	width: 126px;
-	border-radius: 50%;
+	padding: 2.5em;
+	box-shadow: 0 0 15px rgba(0,0,0,0.75);
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
 }
 
 .header-title {
-	margin-top: 10px;
+	color: inherit;
 }
 
 .header-subtitle {
-	margin-top: 10px;
+	color: inherit;
+}
+
+.header p {
+	margin: 1em 0 0 0;
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+.line {
+	background-color: #8bcc98;
+	height: 1.1em;
 }
 
 /*
 	========================================
-	Works
+	Content main
 	========================================
 */
 
-.works {
-	text-align: left;
-}
-
-.works h2 {
-	padding-bottom: 10px;
-}
-
-.work {
-	display: flex;
-	flex-flow: column nowrap;
-	max-width: 90%;
-}
-
-.work img {
-	order: 1;
-}
-
-.work a {
-	order: 3;
-	font-size: 1.4rem;
-	color: #747704;
-}
-
-.work h3 {
-	order: 2;
-	padding: 10px 0;
+.content-main {
+	padding: 2em;
+	background-color: #fff;
+	max-width: 480px;
+	margin: 0 auto;
 }
