@@ -10,8 +10,8 @@
 
 ## Table of Contents
 
-| :---: | :--- | :---: | :---: |
 | Number | Lesson | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
 | 01 | Lesson 1: How to Get Started | [⎙](/notes/) | [Exercises](/exercises/) |
 | 02 | Lesson 2: How to Repeat | [⎙](/notes/lesson2-how-to-repeat/) | [Exercises](/exercises/) |
 | 03 | Lesson 3: How to Manage Data | [⎙](/notes/) | [Exercises](/exercises/) |
