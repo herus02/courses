@@ -13,7 +13,7 @@
 - [Intro to HTML and CSS](#intro-to-html-and-css)
 - [Responsive Web Design Fundamentals](#responsive-web-design-fundamentals)
 - [Responsive Images](#responsive-images)
-- [JavaScript Basics](#javaScript-basics)
+- [JavaScript Basics](#javascript-basics)
 - [Intro to jQuery](#intro-to-jquery)
 - [Object-Oriented JavaScript](#object-oriented-javascript)
 - [HTML5 Canvas](#html5-canvas)
@@ -28,31 +28,31 @@
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | [Lesson 1: HTML, CSS and Boxes](https://www.udacity.com/course/viewer#!/c-ud304/l-2617868617/e-2672258561/m-2600669133) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson1-html-and-css-boxes) |
-| 02 | [Lesson 2: CSS Frameworks, Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud304/l-2810388540/e-2872198574/m-2872198575) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-css-frameworks-responsive-layouts/framework/) |
-| 03 | [Lesson 3: Bootstrap and Other Frameworks](https://www.udacity.com/course/viewer#!/c-ud304/l-2794148535/e-2730818603/m-2730818604) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
-| 04 | [Final Project](https://www.udacity.com/course/viewer#!/c-ud304/l-3063988721/m-3670088566) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/final-project/) |
+| 01 | Lesson 1: HTML, CSS and Boxes | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson1-html-and-css-boxes) |
+| 02 | Lesson 2: CSS Frameworks, Responsive Layouts | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-css-frameworks-responsive-layouts/framework/) |
+| 03 | Lesson 3: Bootstrap and Other Frameworks | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
+| 04 | Final Project | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/final-project/) |
 
 
 ## Responsive Web Design Fundamentals
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | [Lesson 1: Why Responsive?](https://www.udacity.com/course/viewer#!/c-ud893/l-3523969367/m-3525619348) | [⎙]() | No project |
-| 02 | [Lesson 2: Starting Small](https://www.udacity.com/course/viewer#!/c-ud893/l-3494350031/m-3617688539) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson2-starting-small/) |
-| 03 | [Lesson 3: Building Up](https://www.udacity.com/course/viewer#!/c-ud893/l-3533879576/m-3563669102) | [⎙]() | No project |
-| 04 | [Lesson 4: Common Responsive Patterns](https://www.udacity.com/course/viewer#!/c-ud893/l-3561069759/m-3579328553) | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
-| 05 | [Lesson 5: Optimizations](https://www.udacity.com/course/viewer#!/c-ud893/l-3581758575/m-3508540397) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson5-optimizations/) |
+| 01 | Lesson 1: Why Responsive? | [⎙]() | No project |
+| 02 | Lesson 2: Starting Small | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson2-starting-small/) |
+| 03 | Lesson 3: Building Up | [⎙]() | No project |
+| 04 | Lesson 4: Common Responsive Patterns | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
+| 05 | Lesson 5: Optimizations | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson5-optimizations/) |
 
 
 ## Responsive Images
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | [Lesson 1: Getting Up and Running](https://www.udacity.com/course/viewer#!/c-ud882/l-3532609279/m-3916878757) | [⎙]() | No project |
-| 02 | [Lesson 2: Units, Formats, Environments](https://www.udacity.com/course/viewer#!/c-ud882/l-3520939843/e-3739118824/m-3739118825)  | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
-| 03 | [Lesson 3: Images with Markup](https://www.udacity.com/course/viewer#!/c-ud882/l-3483659506/m-3559409555) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
-| 04 | [Lesson 4: Full Responsiveness](https://www.udacity.com/course/viewer#!/c-ud882/l-3574748851/m-3564979132) | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
+| 01 | Lesson 1: Getting Up and Running | [⎙]() | No project |
+| 02 | Lesson 2: Units, Formats, Environments | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
+| 03 | Lesson 3: Images with Markup | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
+| 04 | Lesson 4: Full Responsiveness | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
 
 ## JavaScript Basics
 
