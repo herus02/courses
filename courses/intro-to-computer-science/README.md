@@ -29,8 +29,8 @@
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
 | 01 | `Introduction` | [⎙](notes/lesson2-how-to-repeat/introduction.md) | [Exercises] |
-| 02 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
-| 03 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 02 | `Motivating Procedures` | [⎙](notes/lesson2-how-to-repeat/motivating-procedures.md) | [Exercises] |
+| 03 | `Introducing Procedures` | [⎙](notes/lesson2-how-to-repeat/introducing-procedures.md) | [Exercises] |
 | 04 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
 | 05 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
 | 06 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
