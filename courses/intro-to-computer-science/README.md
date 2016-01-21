@@ -10,12 +10,62 @@
 
 ## Table of Contents
 
-| Number | Lesson | Annotations | Exercises |
++ [Lesson 1: How to Get Started](lesson-1-how-to-get-started)
++ [Lesson 2: How to Repeat](lesson-2-how-to-repeat)
++ [Lesson 3: How to Manage Data](lesson-3-how-to-manage-data)
++ [Lesson 4: Responding to Queries](lesson-4-responding-to-queries)
++ [Lesson 5: How Programs Run](lesson-5-how-programs-run)
++ [Lesson 6: How to Have Infinite Power](lesson-6-how-to-have-infinite-power)
++ [Lesson 7: Past, Present, and Future of Computing](lesson-7-past-present-and-future-of-computing)
+
+## Lesson 1 How to Get Started
+
+| Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | Lesson 1: How to Get Started | [⎙](notes/) | [Exercises](/exercises/) |
-| 02 | Lesson 2: How to Repeat | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](/exercises/) |
-| 03 | Lesson 3: How to Manage Data | [⎙](notes/) | [Exercises](/exercises/) |
-| 04 | Lesson 4: Responding to Queries | [⎙](notes/) | [Exercises](/exercises/) |
-| 05 | Lesson 5: How Programs Run | [⎙](notes/) | [Exercises](/exercises/) |
-| 06 | Lesson 6: How to Have Infinite Power | [⎙](notes/) | [Exercises](/exercises/) |
-| 07 | Lesson 7: Past, Present, and Future of Computing | [⎙](notes/) | [Exercises](/exercises/) |
+| 01 | Introduction | [⎙] | [Exercises] |
+
+## Lesson 2 How to Repeat
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙](notes/lesson2-how-to-repeat/introduction.md) | [Exercises] |
+| 02 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 03 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 04 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 05 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 06 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 07 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+
+## Lesson 3 How to Manage Data
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙] | [Exercises] |
+
+
+## Lesson 4 Responding to Queries
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙] | [Exercises] |
+
+
+## Lesson 5 How Programs Run
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙] | [Exercises] |
+
+
+## Lesson 6 How to Have Infinite Power
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙] | [Exercises] |
+
+
+## Lesson 7 Past, Present, and Future of Computing
+
+| Number | Class | Annotations | Exercises |
+| :---: | :--- | :---: | :---: |
+| 01 | Introduction | [⎙] | [Exercises] |
