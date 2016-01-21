@@ -28,31 +28,31 @@
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | Lesson 1: HTML, CSS and Boxes | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson1-html-and-css-boxes) |
-| 02 | Lesson 2: CSS Frameworks, Responsive Layouts | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-css-frameworks-responsive-layouts/framework/) |
-| 03 | Lesson 3: Bootstrap and Other Frameworks | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
-| 04 | Final Project | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/final-project/) |
+| 01 | `Lesson 1: HTML, CSS and Boxes` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson1-html-and-css-boxes) |
+| 02 | `Lesson 2: CSS Frameworks, Responsive Layouts` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson2-css-frameworks-responsive-layouts/framework/) |
+| 03 | `Lesson 3: Bootstrap and Other Frameworks` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/lesson3-bootstrap-and-other-frameworks/) |
+| 04 | `Final Project` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/intro-to-html-css/final-project/) |
 
 
 ## Responsive Web Design Fundamentals
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | Lesson 1: Why Responsive? | [⎙]() | No project |
-| 02 | Lesson 2: Starting Small | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson2-starting-small/) |
-| 03 | Lesson 3: Building Up | [⎙]() | No project |
-| 04 | Lesson 4: Common Responsive Patterns | [⎙]() | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
-| 05 | Lesson 5: Optimizations | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson5-optimizations/) |
+| 01 | `Lesson 1: Why Responsive?` | [⎙] | [project] |
+| 02 | `Lesson 2: Starting Small` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson2-starting-small/) |
+| 03 | `Lesson 3: Building Up` | [⎙] | [project] |
+| 04 | `Lesson 4: Common Responsive Patterns` | [⎙] | [Project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson4-common-responsive-patterns/) |
+| 05 | `Lesson 5: Optimizations` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-web-design-fundamentals/lesson5-optimizations/) |
 
 
 ## Responsive Images
 
 | Number | Course | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | Lesson 1: Getting Up and Running | [⎙]() | No project |
-| 02 | Lesson 2: Units, Formats, Environments | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
-| 03 | Lesson 3: Images with Markup | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
-| 04 | Lesson 4: Full Responsiveness | [⎙]() | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
+| 01 | `Lesson 1: Getting Up and Running` | [⎙] | [project] |
+| 02 | `Lesson 2: Units, Formats, Environments` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
+| 03 | `Lesson 3: Images with Markup` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
+| 04 | `Lesson 4: Full Responsiveness` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
 
 ## JavaScript Basics
 
