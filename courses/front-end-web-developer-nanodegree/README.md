@@ -49,10 +49,10 @@
 
 | Number | Lesson | Annotations | Project |
 | :---: | :--- | :---: | :---: |
-| 01 | `Lesson 1: Getting Up and Running` | [⎙] | [project] |
-| 02 | `Lesson 2: Units, Formats, Environments` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
-| 03 | `Lesson 3: Images with Markup` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
-| 04 | `Lesson 4: Full Responsiveness` | [⎙] | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
+| 01 | `Lesson 1: Getting Up and Running` | [⎙](notes/responsive-images/lesson1-getting-up-and-running.md) | [project] |
+| 02 | `Lesson 2: Units, Formats, Environments` | [⎙](notes/responsive-images/lesson2-units-formats-environments.md) | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson2-units-formats-environments/prod/) |
+| 03 | `Lesson 3: Images with Markup` | [⎙](notes/responsive-images/lesson3-images-with-markup.md) | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson3-images-with-markup/prod/index.html) |
+| 04 | `Lesson 4: Full Responsiveness` | [⎙](notes/responsive-images/lesson4-full-responsiveness.md) | [project](http://felipoliveira.github.io/courses/courses/front-end-web-developer-nanodegree/responsive-images/lesson4-full-responsiveness/prod/) |
 
 ## JavaScript Basics
 

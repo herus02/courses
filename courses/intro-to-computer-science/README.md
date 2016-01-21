@@ -6,7 +6,7 @@
 	<br>
 </h1>
 
-> [Udacity](https://www.udacity.com/courses/cs101) - Intro to Computer Science Course
+> [Udacity](https://www.udacity.com/courses/cs101) - Intro to Computer Science
 
 ## Table of Contents
 
