@@ -31,10 +31,28 @@
 | 01 | `Introduction` | [⎙](notes/lesson2-how-to-repeat/introduction.md) | [Exercises] |
 | 02 | `Motivating Procedures` | [⎙](notes/lesson2-how-to-repeat/motivating-procedures.md) | [Exercises] |
 | 03 | `Introducing Procedures` | [⎙](notes/lesson2-how-to-repeat/introducing-procedures.md) | [Exercises] |
-| 04 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
-| 05 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
-| 06 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
-| 07 |  | [⎙](notes/lesson2-how-to-repeat/) | [Exercises](exercises/) |
+| 04 | `Procedure Code` | [⎙](notes/lesson2-how-to-repeat/procedure-code.md) | [Exercises] |
+| 05 | `Output` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 06 | `Return Statement` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 07 | `Dave, Sebastian and Júnior` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 08 | `Using Procedures` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 09 | `Inc Procedure` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 10 | `Sum Procedure` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 11 | `Sum Procedure with a Return Statement` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 12 | `Square` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 13 | `Sum of three` | [⎙] | [Exercises](exercises/lesson2-how-to-repeat/sum3.py) |
+| 15 | `Abbaize` | [⎙] | [Exercises](exercises/lesson2-how-to-repeat/abbaize.py) |
+| 16 | `Find Second` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 17 | `Equality Comparisons` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 18 | `If Statements` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 19 | `Is Friend` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 20 | `More Friend` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 21 | `Or` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 22 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 23 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+| 24 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
+
+
 
 ## Lesson 3 How to Manage Data
 
