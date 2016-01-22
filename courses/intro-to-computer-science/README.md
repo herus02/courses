@@ -18,72 +18,59 @@
 + [Lesson 6: How to Have Infinite Power](#lesson-6-how-to-have-infinite-power)
 + [Lesson 7: Past, Present, and Future of Computing](#lesson-7-past-present-and-future-of-computing)
 
+
 ## Lesson 1 How to Get Started
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
+
 
 ## Lesson 2 How to Repeat
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙](notes/lesson2-how-to-repeat/introduction.md) | [Exercises] |
-| 02 | `Motivating Procedures` | [⎙](notes/lesson2-how-to-repeat/motivating-procedures.md) | [Exercises] |
-| 03 | `Introducing Procedures` | [⎙](notes/lesson2-how-to-repeat/introducing-procedures.md) | [Exercises] |
-| 04 | `Procedure Code` | [⎙](notes/lesson2-how-to-repeat/procedure-code.md) | [Exercises] |
-| 05 | `Output` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 06 | `Return Statement` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 07 | `Dave, Sebastian and Júnior` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 08 | `Using Procedures` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 09 | `Inc Procedure` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 10 | `Sum Procedure` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 11 | `Sum Procedure with a Return Statement` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 12 | `Square` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 13 | `Sum of three` | [⎙] | [Exercises](exercises/lesson2-how-to-repeat/sum3.py) |
-| 15 | `Abbaize` | [⎙] | [Exercises](exercises/lesson2-how-to-repeat/abbaize.py) |
-| 16 | `Find Second` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 17 | `Equality Comparisons` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 18 | `If Statements` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 19 | `Is Friend` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 20 | `More Friend` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 21 | `Or` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 22 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 23 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-| 24 | `` | [⎙](notes/lesson2-how-to-repeat/) | [Exercises] |
-
+| 01 | `Square` | [Exercises](exercises/lesson2-how-to-repeat/square.py) |
+| 02 | `Sum of three` | [Exercises](exercises/lesson2-how-to-repeat/sum3.py) |
+| 03 | `Abbaize` | [Exercises](exercises/lesson2-how-to-repeat/abbaize.py) |
+| 04 | `Find Second` | [Exercises](exercises/lesson2-how-to-repeat/find_second.py) |
+| 05 | `Equality Comparisons` | [Exercises] |
+| 06 | `If Statements` | [Exercises](exercises/lesson2-how-to-repeat/bigger.py) |
+| 07 | `Is Friend` | [Exercises](exercises/lesson2-how-to-repeat/is_friend.py) |
+| 08 | `More Friend` | [Exercises](exercises/lesson2-how-to-repeat/more-friend.py) |
+| 10 | `Biggest` | [Exercises](exercises/lesson2-how-to-repeat/biggest.py) |
 
 
 ## Lesson 3 How to Manage Data
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
 
 
 ## Lesson 4 Responding to Queries
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
 
 
 ## Lesson 5 How Programs Run
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
 
 
 ## Lesson 6 How to Have Infinite Power
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
 
 
 ## Lesson 7 Past, Present, and Future of Computing
 
 | Number | Class | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `Introduction` | [⎙] | [Exercises] |
+| 01 | `Introduction` | [Exercises] |
