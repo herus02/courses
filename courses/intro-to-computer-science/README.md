@@ -10,12 +10,12 @@
 
 ## Table of Contents
 
-| Number | Lesson | Exercises |
-| :---: | :--- | :---: |
-| 01 | `Lesson 1: How to Get Started` | [Exercises](exercises/lesson1-how-to-get-started/) |
-| 02 | `Lesson 2: How to Repeat` | [Exercises](exercises/lesson2-how-to-repeat/) |
-| 03 | `Lesson 3: How to Manage Data` | [Exercises](exercises/) |
-| 04 | `Lesson 4: Responding to Queries` | [Exercises](exercises/) |
-| 05 | `Lesson 5: How Programs Run` | [Exercises](exercises/) |
-| 06 | `Lesson 6: How to Have Infinite Power` | [Exercises](exercises/) |
-| 07 | `Lesson 7: Past, Present, and Future of Computing` | [Exercises](exercises/) |
+| Number | Lesson | Exercises | Final Exercise
+| :---: | :--- | :---: | :---: |
+| 01 | `Lesson 1: How to Get Started` | [Exercises](exercises/lesson1-how-to-get-started/) | [Final Exercise](exercises/lesson1-how-to-get-started/final-exercise.py)
+| 02 | `Lesson 2: How to Repeat` | [Exercises](exercises/lesson2-how-to-repeat/) | [Final Exercise](exercises/lesson2-how-to-repeat/final-exercise.py)
+| 03 | `Lesson 3: How to Manage Data` | [Exercises](exercises/) | [Final Exercise]()
+| 04 | `Lesson 4: Responding to Queries` | [Exercises](exercises/) | [Final Exercise]()
+| 05 | `Lesson 5: How Programs Run` | [Exercises](exercises/) | [Final Exercise]()
+| 06 | `Lesson 6: How to Have Infinite Power` | [Exercises](exercises/) | [Final Exercise]()
+| 07 | `Lesson 7: Past, Present, and Future of Computing` | [Exercises](exercises/) | [Final Exercise]()
