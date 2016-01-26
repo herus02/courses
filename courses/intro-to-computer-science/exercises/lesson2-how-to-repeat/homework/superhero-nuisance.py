@@ -36,13 +36,12 @@ def fix_machine(search, target):
 	
 	while count < target_len:
 		if search.find(target[count]) == -1:
-			result = "Not find"
+			result = "Give me something that's not useless next time."
 			break
 		count = count + 1
 	return result
 
-### TEST CASES ###
-print "Test case 1: ", fix_machine('UdaciousUdacitee', 'Udacity') == "Give me something that's not useless next time."
+print "Test case 1: ", fix_machine('UdaciousUdacitee', 'Udacity')
 print "Test case 2: ", fix_machine('buy me dat Unicorn', 'Udacity') == 'Udacity'
 print "Test case 3: ", fix_machine('AEIOU and sometimes y... c', 'Udacity') == 'Udacity'
 print "Test case 4: ", fix_machine('wsx0-=mttrhix', 't-shirt') == 't-shirt'
