@@ -9,11 +9,13 @@
 ###
 
 def nextDay(year, month, day):
-    if day < 30:
-        return year, month, day + 1
-    if month < 12:
-        return year, month + 1, 1
-    return year + 1, 1, 1
+	"""Warning: this version incorrectly
+			assumes all months have 30 days!"""
+  if day < 30:
+    return year, month, day + 1
+  if month < 12:
+    return year, month + 1, 1
+  return year + 1, 1, 1
 
 print nextDay(1999, 12, 30) #=> (2000, 1, 1)
 print nextDay(2013, 1, 30)  #=> (2013, 2, 1)
