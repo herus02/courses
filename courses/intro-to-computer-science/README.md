@@ -14,6 +14,7 @@
 | :---: | :--- | :---: | :---: |
 | 01 | `Lesson 1: How to Get Started` | [Exercises](exercises/lesson1-how-to-get-started/) | [Final Exercise](exercises/lesson1-how-to-get-started/exercises-in-class/final-exercise.py)
 | 02 | `Lesson 2: How to Repeat` | [Exercises](exercises/lesson2-how-to-repeat/) | [Final Exercise](exercises/lesson2-how-to-repeat/exercises-in-class/final-exercise.py)
+| 03 | `Lesson 2.5: How to Solve Problems` | [Exercises](exercises/lesson2.5-how-to-solve-problems/) | [Final Exercise]() |
 | 03 | `Lesson 3: How to Manage Data` | [Exercises](exercises/) | [Final Exercise]()
 | 04 | `Lesson 4: Responding to Queries` | [Exercises](exercises/) | [Final Exercise]()
 | 05 | `Lesson 5: How Programs Run` | [Exercises](exercises/) | [Final Exercise]()

@@ -59,4 +59,4 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
 
 	return days
 
-print daysBetweenDates(1900, 1, 1, 1999, 12, 31)
+print daysBetweenDates(2012,06,29,2013,06,30)
