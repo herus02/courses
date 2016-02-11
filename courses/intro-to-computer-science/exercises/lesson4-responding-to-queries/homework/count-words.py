@@ -14,7 +14,7 @@ def count_words(string, char_list):
 				words[-1] += char
 		else:
 			aux = True
-	return words
+	return len(words)
 
 passage =("The number of orderings of the 52 cards in a deck of cards "
 "is so great that if every one of the almost 7 billion people alive "
@@ -23,7 +23,7 @@ passage =("The number of orderings of the 52 cards in a deck of cards "
 "possible way.")
 
 char_list = [" "]
-# char_list = [" ", ".", ",", "*"]
+# uncomment to test char_list = [" ", ".", ",", "*"]
 
 print count_words(passage, char_list)
 #>>>56
