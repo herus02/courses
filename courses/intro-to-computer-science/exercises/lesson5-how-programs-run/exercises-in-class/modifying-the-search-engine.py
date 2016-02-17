@@ -1,9 +1,10 @@
 def add_to_index(index, keyword, url):
     if keyword in index:
-    	if url in index[keyword]:
+    	if url not in index[keyword]:
     		index[keyword].append(url)
     		return
-    index[keyword] = [url]
+    else:
+    	index[keyword] = [url]
 
 def lookup(index, keyword):
     if keyword in index:
@@ -48,8 +49,8 @@ def get_all_links(page):
 
 # Page content
 
-def web_crawler(see):
-	tocrawl = [see]
+def web_crawler(seed):
+	tocrawl = [seed]
 	crawled = []
 	index = {}
 	while tocrawl:
