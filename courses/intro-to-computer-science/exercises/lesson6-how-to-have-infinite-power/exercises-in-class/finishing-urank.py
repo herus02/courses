@@ -1,31 +1,35 @@
-# Modify the crawl_web procedure so that instead of just returning the 
-# index, it returns an index and a graph. The graph should be a 
-# Dictionary where the key:value entries are:
+#Finishing the page ranking algorithm.
 
-#  url: [list of pages url links to] 
+def compute_ranks(graph):
+    d = 0.8 # damping factor
+    numloops = 10
+    
+    ranks = {}
+    npages = len(graph)
+    for page in graph:
+        ranks[page] = 1.0 / npages
+    
+    for i in range(0, numloops):
+        newranks = {}
+        for page in graph:
+            newrank = (1 - d) / npages
 
-def crawl_web(seed): # returns index, graph of outlinks
-    tocrawl = [seed]
-    crawled = []
-    graph = {}  # <url>:[list of pages it links to]
-    index = {} 
-    while tocrawl:
-        page = tocrawl.pop()
-        if page not in crawled:
-            content = get_page(page)
-            add_page_to_index(index, page, content)
-            outlinks = get_all_links(content)
-            graph[page] = outlinks
-            union(tocrawl, outlinks)
-            crawled.append(page)
-    return index, graph
+            for node in graph:
+                if page in graph[node]:
+                    newrank  += d * (ranks[node] / len(graph[node]))
+                        
+            newranks[page] = newrank
+        ranks = newranks
+    return ranks
+
+
 
 cache = {
    'http://udacity.com/cs101x/urank/index.html': """<html>
 <body>
 <h1>Dave's Cooking Algorithms</h1>
 <p>
-Here are my favorite recipes:
+Here are my favorite recipies:
 <ul>
 <li> <a href="http://udacity.com/cs101x/urank/hummus.html">Hummus Recipe</a>
 <li> <a href="http://udacity.com/cs101x/urank/arsenic.html">World's Best Hummus</a>
@@ -37,6 +41,11 @@ For more expert opinions, check out the
 and <a href="http://udacity.com/cs101x/urank/zinc.html">Zinc Chef</a>.
 </body>
 </html>
+
+
+
+
+
 
 """, 
    'http://udacity.com/cs101x/urank/zinc.html': """<html>
@@ -53,6 +62,11 @@ For great hummus, try
 </body>
 </html>
 
+
+
+
+
+
 """, 
    'http://udacity.com/cs101x/urank/nickel.html': """<html>
 <body>
@@ -66,6 +80,11 @@ best Hummus recipe!
 </body>
 </html>
 
+
+
+
+
+
 """, 
    'http://udacity.com/cs101x/urank/kathleen.html': """<html>
 <body>
@@ -75,9 +94,9 @@ Kathleen's Hummus Recipe
 <p>
 
 <ol>
-<li> Open a can of garbanzo beans.
+<li> Open a can of garbonzo beans.
 <li> Crush them in a blender.
-<li> Add 3 tablespoons of tahini sauce.
+<li> Add 3 tablesppons of tahini sauce.
 <li> Squeeze in one lemon.
 <li> Add salt, pepper, and buttercream frosting to taste.
 </ol>
@@ -117,8 +136,32 @@ Hummus Recipe
 </body>
 </html>
 
+
+
+
 """, 
 }
+
+def crawl_web(seed): # returns index, graph of inlinks
+    tocrawl = [seed]
+    crawled = []
+    graph = {}  # <url>, [list of pages it links to]
+    index = {} 
+    while tocrawl: 
+        page = tocrawl.pop()
+        if page not in crawled:
+            content = get_page(page)
+            add_page_to_index(index, page, content)
+            outlinks = get_all_links(content)
+            
+            
+            graph[page] = outlinks
+            
+            
+            union(tocrawl, outlinks)
+            crawled.append(page)
+    return index, graph
+
 
 def get_page(url):
     if url in cache:
@@ -169,15 +212,17 @@ def lookup(index, keyword):
     else:
         return None
 
-index , graph = crawl_web('http://udacity.com/cs101x/urank/index.html') 
+index, graph = crawl_web('http://udacity.com/cs101x/urank/index.html')
+ranks = compute_ranks(graph)
 
-if 'http://udacity.com/cs101x/urank/index.html' in graph:
-    print graph['http://udacity.com/cs101x/urank/index.html']
-# >>> ['http://udacity.com/cs101x/urank/hummus.html',
-#      'http://udacity.com/cs101x/urank/arsenic.html',
-#      'http://udacity.com/cs101x/urank/kathleen.html',
-#      'http://udacity.com/cs101x/urank/nickel.html',
-#      'http://udacity.com/cs101x/urank/zinc.html']
+for rank in ranks:
+    print rank,"=>" , ranks[rank]
 
+#>>> {'http://udacity.com/cs101x/urank/kathleen.html': 0.11661866666666663,
+#'http://udacity.com/cs101x/urank/zinc.html': 0.038666666666666655,
+#'http://udacity.com/cs101x/urank/hummus.html': 0.038666666666666655,
+#'http://udacity.com/cs101x/urank/arsenic.html': 0.054133333333333325,
+#'http://udacity.com/cs101x/urank/index.html': 0.033333333333333326,
+#'http://udacity.com/cs101x/urank/nickel.html': 0.09743999999999997}
 
-
+# https://www.udacity.com/cs101x/urank/index.html
