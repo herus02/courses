@@ -10,37 +10,38 @@
 # there will be no '<' without a following '>'.
 
 def remove_tags(s):
-	words = []
-	for char in s:
-		if char == '<':
+	words, word = [], ""
+	while s:
+		if s[0] == '<':
 			s = s[s.find('>') + 1:]
-			continue
-		elif char == ' ':
-			s = s[1:]
-			continue
-		else:
-			if s.find(' ') > s.find('<'):
-				divider = s.find(' ')
-			else:
-				divider = s.find('<')
-			word = s[:divider]
-			if word != '':
+			if word:
 				words.append(word)
-			s = s[divider + 1:]
-			continue
+				word = ""
+				s = s[len(word):]
+		elif s[0] == " ":
+			if word:
+				words.append(word)
+				word = ""
+				s = s[len(word):]
+			else:
+				s = s[1:]
+		else:
+			word += s[:1]
+			s = s[1:]
+
+	if word:
+		words.append(word)
+	
 	return words
 
-print remove_tags('''<h1>Title</h1><p>This is a
-                    <a href="http://www.udacity.com">link</a>.<p>''')
+print remove_tags('''<h1>Title</h1><p>This is a<a href="http://www.udacity.com">link</a>.<p>''')
 #>>> ['Title','This','is','a','link','.']
 
-print remove_tags('''<table cellpadding='3'>
-                     <tr><td>Hello</td><td>World!</td></tr>
-                     </table>''')
+print remove_tags('''<table cellpadding='3'><tr><td>Hello</td><td>World!</td></tr></table>''')
 #>>> ['Hello','World!']
 
 print remove_tags("<hello><goodbye>")
 #>>> []
 
-print remove_tags("This is plain text.")
+print remove_tags("This is plain text")
 #>>> ['This', 'is', 'plain', 'text.']
