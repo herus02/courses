@@ -1,5 +1,4 @@
 # Question 7: Find and Replace
-
 # For this question you need to define two procedures:
 #  make_converter(match, replacement)
 #     Takes as input two strings and returns a converter. It doesn't have
