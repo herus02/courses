@@ -11,20 +11,20 @@ def longest_repetition(list):
   if not list:
     return None
 
-  end = len(list) - 2
-  biggest = [1, 0]
+  end = len(list) - 1
+  biggest = [list[0], 0]
+  count = 0
   for i in range(0, end):
-    count = 0
-    for y in range(i, end):
-      if list[i] == list[y + 1]:
-        i += 1
-        count += 1
-        if count > biggest[1]:
-          biggest[0] = list[i]
-          biggest[1] = count
-  return biggest
-
-
+    if list[i] == list[i + 1]:
+      count += 1
+      if count > biggest[1]:
+        biggest[0] = list[i + 1]
+        biggest[1] = count
+      continue
+    else:
+      if list[i] != list[i + 1]:
+        count = 0
+  return biggest[0]
 
 #For example,
 
@@ -39,4 +39,7 @@ print longest_repetition([1,2,3,4,5])
 
 print longest_repetition([])
 # None
+
+print longest_repetition([2, 2, 3, 3, 3])
+# 3
 
