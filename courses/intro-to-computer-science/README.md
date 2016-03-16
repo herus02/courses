@@ -20,7 +20,7 @@
 | 05 | `Lesson 5: How Programs Run` | [Exercises](exercises/lesson5-how-programs-run/) | [Final Exercise](exercises/lesson5-how-programs-run/exercises-in-class/modifying-the-search-engine.py)
 | 06 | `Lesson 6: How to Have Infinite Power` | [Exercises](exercises/) | [Final Exercise]()
 | 07 | `Lesson 7: Past, Present, and Future of Computing` | [Exercises](exercises/) | [Final Exercise]()
-| 08 | `Cumulative Practice Problems` | [exercises](exercises/cumulative-practice-problems/) | [Final exercise] |
-| 09 | `Challenging Practice Problems` | [exercises](exercises/challenging-practice-problems/) | [Final exercise] |
-| 10 | `Final project` | [Final project](exercises/) |
+| 08 | `Cumulative Practice Problems` | [exercises](exercises/cumulative-practice-problems/) | ~ |
+| 09 | `Challenging Practice Problems` | [exercises](exercises/challenging-practice-problems/) | ~ |
+| 10 | `Final project` | [Final project](exercises/) | ~ |
 
