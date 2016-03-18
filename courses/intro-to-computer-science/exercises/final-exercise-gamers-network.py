@@ -92,8 +92,74 @@ Freda likes to play Starfleet Commander, Ninja Hamsters, Seahorse Adventures."
 #
 # Return:
 #   The newly created network data structure
+
+# network = {
+#   "name": [
+#     [connection, ...],
+#     [game_linked, ...]
+#   ]
+# }
+
+def getText(string_input, separator):
+  end = string_input.find(separator)
+  text = string_input[:end]
+  string_input = string_input[end + 1:]
+  return text, string_input
+
+def changeCaractere(string_input, char):
+  new_string = ""
+  for i in range(0, len(string_input)):
+    if string_input[i] != char:
+      new_string += string_input[i]
+  return new_string
+
+def getConnections(string_input):
+  # Cheking connections
+  hasConnections = string_input.find('connected to ')
+  if not hasConnections:
+    return []
+
+  # Creating array of the connections
+  connections = string_input[hasConnections + 13:]
+  connections = changeCaractere(connections, ',')
+  connections = connections.split()
+  return connections
+
+def getGame(string_input, separator):
+  game = ""
+  for i in range(0, len(string_input)):
+    if string_input[i] in separator:
+      break
+    if string_input[i] == " " and i == 0:
+      break
+    game += string_input[i]
+  string_input = string_input[len(game) + 1:]
+  return game, string_input
+
+def getGamesFavorites(string_input):
+  games = []
+  has_games = string_input.find('likes to play')
+  string_input = string_input[has_games + 14:]
+  while string_input:
+    game, string_input = getGame(string_input, [','])
+    if game:
+      games.append(game)
+  return games
+
+def create_perfil(string_input):
+  first_period, string_input = getText(string_input, '.')
+  second_period, string_input = getText(string_input, '.')
+  name, first_period = getText(first_period, ' ')
+  connections = getConnections(first_period)
+  games_favorites = getGamesFavorites(second_period)
+  return name, connections, games_favorites, string_input
+
 def create_data_structure(string_input):
-    return network
+  network = {}
+  while(string_input):
+    name, connections, games_favorites, string_input =  create_perfil(string_input)
+    network[name] = [connections, games_favorites]
+  return network
 
 # ----------------------------------------------------------------------------- #
 # Note that the first argument to all procedures below is 'network' This is the #
@@ -253,12 +319,12 @@ def find_path_to_friend(network, user_A, user_B):
 
 net = create_data_structure(example_input)
 print net
-print get_connections(net, "Debra")
-print get_connections(net, "Mercedes")
-print get_games_liked(net, "John")
-print add_connection(net, "John", "Freda")
-print add_new_user(net, "Debra", [])
-print add_new_user(net, "Nick", ["Seven Schemers", "The Movie: The Game"]) # True
-print get_secondary_connections(net, "Mercedes")
-print count_common_connections(net, "Mercedes", "John")
-print find_path_to_friend(net, "John", "Ollie")
+# print get_connections(net, "Debra")
+# print get_connections(net, "Mercedes")
+# print get_games_liked(net, "John")
+# print add_connection(net, "John", "Freda")
+# print add_new_user(net, "Debra", [])
+# print add_new_user(net, "Nick", ["Seven Schemers", "The Movie: The Game"]) # True
+# print get_secondary_connections(net, "Mercedes")
+# print count_common_connections(net, "Mercedes", "John")
+# print find_path_to_friend(net, "John", "Ollie")
