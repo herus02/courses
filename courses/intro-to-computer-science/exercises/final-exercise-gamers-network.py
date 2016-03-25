@@ -102,65 +102,65 @@ Freda likes to play Starfleet Commander, Ninja Hamsters, Seahorse Adventures."
 # }
 
 def getText(string_input, separator):
-  end = string_input.find(separator)
-  text = string_input[:end]
-  string_input = string_input[end + 1:]
-  return text, string_input
+	end = string_input.find(separator)
+	text = string_input[:end]
+	string_input = string_input[end + 1:]
+	return text, string_input
 
 def changeCaractere(string_input, char):
-  new_string = ""
-  for i in range(0, len(string_input)):
-    if string_input[i] != char:
-      new_string += string_input[i]
-  return new_string
+	new_string = ""
+	for i in range(0, len(string_input)):
+		if string_input[i] != char:
+			new_string += string_input[i]
+	return new_string
 
 def getConnections(string_input):
-  # Cheking connections
-  hasConnections = string_input.find('connected to ')
-  if not hasConnections:
-    return []
+	# Cheking connections
+	hasConnections = string_input.find('connected to ')
+	if not hasConnections:
+		return []
 
-  # Creating array of the connections
-  connections = string_input[hasConnections + 13:]
-  connections = changeCaractere(connections, ',')
-  connections = connections.split()
-  return connections
+	# Creating array of the connections
+	connections = string_input[hasConnections + 13:]
+	connections = changeCaractere(connections, ',')
+	connections = connections.split()
+	return connections
 
 def getGame(string_input, separator):
-  game = ""
-  for i in range(0, len(string_input)):
-    if string_input[i] in separator:
-      break
-    if string_input[i] == " " and i == 0:
-      break
-    game += string_input[i]
-  string_input = string_input[len(game) + 1:]
-  return game, string_input
+	game = ""
+	for i in range(0, len(string_input)):
+		if string_input[i] in separator:
+			break
+		if string_input[i] == " " and i == 0:
+			break
+		game += string_input[i]
+	string_input = string_input[len(game) + 1:]
+	return game, string_input
 
 def getGamesFavorites(string_input):
-  games = []
-  has_games = string_input.find('likes to play')
-  string_input = string_input[has_games + 14:]
-  while string_input:
-    game, string_input = getGame(string_input, [','])
-    if game:
-      games.append(game)
-  return games
+	games = []
+	has_games = string_input.find('likes to play')
+	string_input = string_input[has_games + 14:]
+	while string_input:
+		game, string_input = getGame(string_input, [','])
+		if game:
+			games.append(game)
+	return games
 
 def create_perfil(string_input):
-  first_period, string_input = getText(string_input, '.')
-  second_period, string_input = getText(string_input, '.')
-  name, first_period = getText(first_period, ' ')
-  connections = getConnections(first_period)
-  games_favorites = getGamesFavorites(second_period)
-  return name, connections, games_favorites, string_input
+	first_period, string_input = getText(string_input, '.')
+	second_period, string_input = getText(string_input, '.')
+	name, first_period = getText(first_period, ' ')
+	connections = getConnections(first_period)
+	games_favorites = getGamesFavorites(second_period)
+	return name, connections, games_favorites, string_input
 
 def create_data_structure(string_input):
-  network = {}
-  while(string_input):
-    name, connections, games_favorites, string_input =  create_perfil(string_input)
-    network[name] = [connections, games_favorites]
-  return network
+	network = {}
+	while(string_input):
+		name, connections, games_favorites, string_input =  create_perfil(string_input)
+		network[name] = [connections, games_favorites]
+	return network
 
 # ----------------------------------------------------------------------------- #
 # Note that the first argument to all procedures below is 'network' This is the #
@@ -182,9 +182,12 @@ def create_data_structure(string_input):
 #   - If the user has no connections, return an empty list.
 #   - If the user is not in network, return None.
 def get_connections(network, user):
-  if user not in network:
-    return []
-  return network[user][0]
+	if user == "":
+		return None
+
+	if user not in network:
+		return None
+	return network[user][0]
 
 # -----------------------------------------------------------------------------
 # get_games_liked(network, user):
@@ -199,9 +202,9 @@ def get_connections(network, user):
 #   - If the user likes no games, return an empty list.
 #   - If the user is not in network, return None.
 def get_games_liked(network,user):
-  if user not in network:
-    return []
-  return network[user][1]
+	if user not in network:
+		return None
+	return network[user][1]
 
 # -----------------------------------------------------------------------------
 # add_connection(network, user_A, user_B):
@@ -218,7 +221,11 @@ def get_games_liked(network,user):
 #   - If a connection already exists from user_A to user_B, return network unchanged.
 #   - If user_A or user_B is not in network, return False.
 def add_connection(network, user_A, user_B):
-  return network
+	if user_A not in network or user_B not in network:
+		return False
+	if user_B not in network[user_A][0]:
+		network[user_A][0].append(user_B)
+	return network
 
 # -----------------------------------------------------------------------------
 # add_new_user(network, user, games):
@@ -238,7 +245,10 @@ def add_connection(network, user_A, user_B):
 #   - If the user already exists in network, return network *UNCHANGED* (do not change
 #     the user's game preferences)
 def add_new_user(network, user, games):
-    return network
+	if user in network:
+		return network
+	network[user] = [[], games]
+	return network
 
 # -----------------------------------------------------------------------------
 # get_secondary_connections(network, user):
@@ -259,7 +269,19 @@ def add_new_user(network, user, games):
 #   himself/herself. It is also OK if the list contains a user's primary
 #   connection that is a secondary connection as well.
 def get_secondary_connections(network, user):
-  return []
+	secondary_connections = []
+	if user not in network:
+		return None
+
+	primary_connections = network[user][0]
+	for connection in primary_connections:
+		secondary_connection = network[connection][0]
+		if secondary_connection:
+			for current in secondary_connection:
+				if current not in secondary_connections:
+					secondary_connections.append(current)
+
+	return secondary_connections
 
 # -----------------------------------------------------------------------------
 # count_common_connections(network, user_A, user_B):
@@ -273,8 +295,19 @@ def get_secondary_connections(network, user):
 # Return:
 #   The number of connections in common (as an integer).
 #   - If user_A or user_B is not in network, return False.
-def count_common_connections(network, user_A, user_B):
-    return 0
+def count_common_connections(network, user_a, user_b):
+	if user_a not in network or user_b not in network:
+		return False
+
+	user_a_connections = network[user_a][0]
+	user_b_connections = network[user_b][0]
+
+	count = 0
+	for user in user_a_connections:
+		if user in user_b_connections:
+			count += 1
+
+	return count
 
 # -----------------------------------------------------------------------------
 # find_path_to_friend(network, user_A, user_B):
@@ -308,9 +341,47 @@ def count_common_connections(network, user_A, user_B):
 #   in this procedure to keep track of nodes already visited in your search. You
 #   may safely add default parameters since all calls used in the grading script
 #   will only include the arguments network, user_A, and user_B.
-def find_path_to_friend(network, user_A, user_B):
-  # your RECURSIVE solution here!
-  return None
+
+def everything_at_history(connections, history):
+	for c in connections:
+		if c not in history:
+			return False
+	return True
+
+def find_path(network, user_a, user_b, history):
+	history.append(user_a)
+	connections = get_connections(network, user_a)
+	if everything_at_history(connections, history) and history != []:
+		return []
+	if connections == []:
+		return []
+	elif user_b in connections and history == [user_a]:
+		return [user_a, user_b]
+	elif user_b in connections:
+		history.append(user_b)
+		return history
+	else:
+		result = []
+		for i in range(0, len(connections)):
+			next_user_a = connections[i]
+			if next_user_a in history:
+				continue
+			result = find_path(network, next_user_a, user_b, history)
+			if result == []:
+				history.pop()
+			if user_b in result:
+				break
+
+	return result
+
+def find_path_to_friend(network, user_a, user_b):
+	if user_a not in network or user_b not in network:
+		return None
+
+	result = find_path(network, user_a, user_b, [])
+	if result == [] or user_b not in result:
+		return None
+	return result
 
 # Make-Your-Own-Procedure (MYOP)
 # -----------------------------------------------------------------------------
@@ -322,14 +393,20 @@ def find_path_to_friend(network, user_A, user_B):
 # Replace this with your own procedure! You can also uncomment the lines below
 # to see how your code behaves. Have fun!
 
-net = create_data_structure(example_input)
+#net = create_data_structure(example_input)
 #print net
-print get_connections(net, "Debra")
-print get_connections(net, "Mercedes")
-print get_games_liked(net, "John")
+# print get_connections(net, "Debra")
+# print get_connections(net, "Mercedes")
+# print get_games_liked(net, "John")
 # print add_connection(net, "John", "Freda")
 # print add_new_user(net, "Debra", [])
 # print add_new_user(net, "Nick", ["Seven Schemers", "The Movie: The Game"]) # True
 # print get_secondary_connections(net, "Mercedes")
 # print count_common_connections(net, "Mercedes", "John")
-# print find_path_to_friend(net, "John", "Ollie")
+# network = create_data_structure('')
+# network = add_new_user(network, 'Alice', [])
+# network = add_new_user(network, 'Bob', [])
+#print find_path_to_friend(net, 'Levi', 'Walter')
+network = create_data_structure(example_input)
+print find_path_to_friend(network,"Freda","Jennie")
+
