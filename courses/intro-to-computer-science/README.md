@@ -18,8 +18,8 @@
 | 03 | `Lesson 3: How to Manage Data` | [Exercises](exercises/lesson3-how-to-manage-data/) | [Final Exercise](exercises/lesson3-how-to-manage-data/exercises-in-class/final-exercise.py)
 | 04 | `Lesson 4: Responding to Queries` | [Exercises](exercises/lesson4-responding-to-queries) | [Final Exercise](exercises/lesson4-responding-to-queries/exercises-in-class/finishing-the-web-crawler.py)
 | 05 | `Lesson 5: How Programs Run` | [Exercises](exercises/lesson5-how-programs-run/) | [Final Exercise](exercises/lesson5-how-programs-run/exercises-in-class/modifying-the-search-engine.py)
-| 06 | `Lesson 6: How to Have Infinite Power` | [Exercises](exercises/) | [Final Exercise]()
-| 07 | `Lesson 7: Past, Present, and Future of Computing` | [Exercises](exercises/) | ~ |
+| 06 | `Lesson 6: How to Have Infinite Power` | [Exercises](exercises/lesson6-how-to-have-infinite-power/) | [Final Exercise](exercises/lesson6-how-to-have-infinite-power/exercises-in-class/finishing-urank.py)
+| 07 | `Lesson 7: Past, Present, and Future of Computing` | ~ | ~ |
 | 08 | `Cumulative Practice Problems` | [Exercises](exercises/cumulative-practice-problems/) | ~ |
 | 09 | `Challenging Practice Problems` | [Exercises](exercises/challenging-practice-problems/) | ~ |
 | 10 | `Final project` | [Final Project](exercises/final-exercise-gamers-network.py) | ~ |
