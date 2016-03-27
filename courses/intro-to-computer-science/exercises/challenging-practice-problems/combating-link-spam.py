@@ -24,8 +24,20 @@
 #   - exclude reciprocal links of length up to and including k from
 #     helping the page rank.
 
-def compute_ranks(graph):
-    d = 0.8 # damping factor
+def is_reciprocal_link(graph, source, destination, k):
+    if k == 0:
+        if destination == source:
+            return True
+        return False
+    if source in graph[destination]:
+        return True
+    for node in graph[destination]:
+        if is_reciprocal_link(graph, source, node, k - 1):
+            return True
+    return False
+
+def compute_ranks(graph, k):
+    d = 0.8 # damping fact#or
     numloops = 10
     ranks = {}
     npages = len(graph)
@@ -37,7 +49,8 @@ def compute_ranks(graph):
             newrank = (1 - d) / npages
             for node in graph:
                 if page in graph[node]:
-                    newrank = newrank + d * (ranks[node]/len(graph[node]))
+                    if not is_reciprocal_link(graph, node, page, k):
+                        newrank = newrank + d * (ranks[node]/len(graph[node]))
             newranks[page] = newrank
         ranks = newranks
     return ranks
@@ -46,7 +59,7 @@ def compute_ranks(graph):
 
 g = {'a': ['a', 'b', 'c'], 'b':['a'], 'c':['d'], 'd':['a']}
 
-#print compute_ranks(g, 0) # the a->a link is reciprocal
+print compute_ranks(g, 0) # the a->a link is reciprocal
 #>>> {'a': 0.26676872354238684, 'c': 0.1216391112164609,
 #     'b': 0.1216391112164609, 'd': 0.1476647842238683}
 
