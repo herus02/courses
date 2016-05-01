@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang⁼"en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML vídeo</title>
+	</head>
+	<body>
+
+		<video controls>
+			<source src="chrome-starts-fast-hammock.mp4" type="video/mp4">
+			<!--
+				Outros tipos de áudio para navegadores sem suporte a .mp3
+				<source src="chrome-starts-fast-hammock.ogg" type="video/ogg">
+			-->
+			You browser does not support the <code>video</code> e element.
+		</video>
+
+		<script>
+			window.addEventListener('load', init, false);
+			function init() {
+				const video = document.querySelector('video');
+				video.play();
+
+				// window.addEventListener('click', playPause, false)
+				function playPause() {
+					if (video.paused) {
+						video.play();
+					} else {
+						video.pause();
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

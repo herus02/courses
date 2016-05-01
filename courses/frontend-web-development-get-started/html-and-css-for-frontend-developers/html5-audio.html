@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang⁼"en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML áudio</title>
+	</head>
+	<body>
+
+		<audio controls>
+			<source src="system-of-a-down-chop-suey.mp3" type="audio/mpeg">
+			<!--
+				Outros tipos de áudio para navegadores sem suporte a .mp3
+				<source src="system-of-a-down-chop-suey.ogg" type="audio/ogg">
+			-->
+			You browser does not support the <code>audio</code> e element.
+		</audio>
+
+		<script>
+			// window.addEventListener('load', init, false);
+			function init() {
+				const audio = document.querySelector('audio');
+				// window.addEventListener('click', playPause, false)
+				audio.play();
+
+				function playPause() {
+					if (audio.paused) {
+						audio.play();
+					} else {
+						audio.pause();
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
