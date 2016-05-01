@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 Geolocation</title>
+	</head>
+	<body>
+
+		<script>
+			window.addEventListener('load', function() {
+				navigator.geolocation.getCurrentPosition(function(loc) {
+					console.log(loc.coords.latitude + ', ' + loc.coords.longitude);
+				});
+			}, false);
+		</script>
+	</body>
+</html>
