@@ -61,9 +61,9 @@
 
 | Number | Lesson | Annotations | Exercises |
 | :---: | :--- | :---: | :---: |
-| 01 | `The Basics: the DOM, $ and selectors`  | [⎙]() | [exercises](intro-to-jquery/exercises/the-basics/) |
+| 01 | `The Basics: the DOM, $ and selectors`  | [⎙]() | [exercises](./intro-to-jquery/exercises/the-basics/) |
 | 01 | `The Tricks: DOM Manipulation` | [⎙]() | [exercises](./intro-to-jquery/exercises/the-tricks/) |
-| 01 | `Event Listeners with jQuery` | [⎙]() | [exercises](/intro-to-jquery/exercises/event-listeners/) |
+| 01 | `Event Listeners with jQuery` | [⎙]() | [exercises](./intro-to-jquery/exercises/event-listeners/) |
 
 ## Object-Oriented JavaScript
 
